@@ -1,14 +1,12 @@
 
 
-# Main functions 
-
-#### Function to extract text from a PDF
-#### Fixed-size chunking method
-#### Basic retrieval method using TF-IDF
-#### Sentence-based chunking method
-#### Define the openAI response function
-#### Define a conversation chain class
-
+# Functional blocks
+## load the .env file
+## Load and process the pdf
+## split the text into smaller chunks
+## create embeddings and vector store
+## create the chatbot
+## create a chat loop
 
 ## Setting up the environment
 ##### >conda create -n chatbot_env python=3.9
@@ -20,3 +18,5 @@
 ##### >pip install pypdf
 ##### >pip install python-dotenv
 
+## Usage
+#### >python chatbot.py
