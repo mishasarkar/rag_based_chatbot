@@ -20,3 +20,7 @@
 
 ## Usage
 #### >python chatbot.py
+
+## Results
+> I have uploaded the source document star_signs.pdf and also my result, you can open the source document and 
+> validate the  user results.
