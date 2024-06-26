@@ -11,8 +11,12 @@
 
 
 ## Setting up the environment
-conda activate ds_env
-> conda install langchain -c conda-forge
-> conda install openai
-> python -m pip install pymupdf
-> conda install scikit-learn
+>conda create -n chatbot_env python=3.9
+>conda activate chatbot_env
+>conda install -c conda-forge faiss-cpu
+>conda install -c conda-forge langchain
+>pip install langchain-openai
+>pip install langchain-community
+>pip install pypdf
+>pip install python-dotenv
+
